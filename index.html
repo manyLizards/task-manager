@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+</head>
+<body>
+    
+    <header>
+        <div id="greeting"></div> <!--will vary depending on user's schedule(good morning before lunch, good evening after lunch)-->
+        <div id="current-task"></div> <!--will have the current time and the task. Will say break if on break.-->
+        <nav>
+            <ul>
+                <li>Task List</li>
+                <li>Settings</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="task-forecast"></div> <!--autofills the weekly planner with tasks and updates every time a task is completed / a new task is added-->
+    <div id="task-list">
+        <button>Add Task</button>
+    </div> <!--list of every task in the array-->
+    <div id="settings"></div> <!--where users can edit their productive times and break times and alarm settings(off/on, sound choice)-->
+</body>
+</html>
